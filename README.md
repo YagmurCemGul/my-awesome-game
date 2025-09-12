@@ -1,3 +1,5 @@
+<img width="1536" height="1024" alt="ChatGPT Image 12 Eyl 2025 22_31_19" src="https://github.com/user-attachments/assets/c148f4eb-b369-40ca-a24a-4e67aa2111a4" />
+
 # 🎮 My Awesome Game
 
 A Unity 2D adventure game - collect diamonds, avoid obstacles, and advance to the next level!
