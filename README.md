@@ -1,8 +1,5 @@
-
 <img width="1472" height="704" alt="Gemini_Generated_Image_mylii7mylii7myli" src="https://github.com/user-attachments/assets/7f11d4cc-5b7c-4490-afa0-5e9e9a83a734" />
 
-
-<img width="1536" height="1024" alt="ChatGPT Image 12 Eyl 2025 22_31_19" src="https://github.com/user-attachments/assets/c148f4eb-b369-40ca-a24a-4e67aa2111a4" />
 
 # 🎮 My Awesome Game
 
