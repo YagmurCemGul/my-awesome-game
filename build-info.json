@@ -1,0 +1,11 @@
+{
+  "game": "My Awesome Game",
+  "unity": "2023.2.3f1",
+  "source_commit": "eda760a2cebf06d642b18e4d6d88e3b0f20425e7",
+  "source_branch": "deepjam/prototype-20261011",
+  "unity_play_mode_tests": {
+    "passed": 3,
+    "failed": 0
+  },
+  "scope": "Original two-level platformer; no Shiftshore time-switching mechanic."
+}
