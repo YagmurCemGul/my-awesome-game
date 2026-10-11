@@ -38,7 +38,7 @@ public class characterController2 : MonoBehaviour
             moving = false;
         }
         
-        if (moving && ! (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)))
+        if (moving && ! (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow)))
         {
             moveDirection = 0.0f;
         }
@@ -57,12 +57,12 @@ public class characterController2 : MonoBehaviour
     {
         if (grounded == true) // && (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
         {
-            if (Input.GetKey(KeyCode.A))
+            if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
             {
                 moveDirection = -1.0f;
                 _spriteRenderer.flipX = true;
                 anim.SetFloat("speed", speed);
-            }else if (Input.GetKey(KeyCode.D))
+            }else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
             {
                 moveDirection = 1.0f;
                 _spriteRenderer.flipX = false;
@@ -74,7 +74,7 @@ public class characterController2 : MonoBehaviour
                 anim.SetFloat("speed", 0.0f);
             }
 
-            if (grounded == true && Input.GetKey(KeyCode.W))
+            if (grounded == true && (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow)))
             {
                 jump = true;
                 grounded = false;

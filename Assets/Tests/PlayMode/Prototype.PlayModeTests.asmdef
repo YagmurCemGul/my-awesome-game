@@ -1,0 +1,10 @@
+{
+  "name": "Prototype.PlayModeTests",
+  "references": [],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ]
+}

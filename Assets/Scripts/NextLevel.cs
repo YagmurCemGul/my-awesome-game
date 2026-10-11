@@ -25,6 +25,8 @@ public class NextLevel : MonoBehaviour
 
     public void StartLevel()
     {
+        score.totalScore = 0;
+        score.lives = 3;
         SceneManager.LoadScene(_scene.buildIndex + 1);
     }
 }
